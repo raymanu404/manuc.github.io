@@ -1,0 +1,15 @@
+body{
+    background-image:url(photo.jfif);
+    background-size:cover;
+}
+.navbar-expand-lg {
+    background:inherit;
+}
+.carousel-item{
+    width:1000px;
+    height:600px;
+}
+.carousel-inner{
+    margin-left:20%;
+
+}

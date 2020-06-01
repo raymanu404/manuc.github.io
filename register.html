@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+       body { 
+           background-image:url(zetong-li-VAT6XKKwaIE-unsplash.jpg);
+           background-size:100% 250% ;
+           display:flex;
+          
+       }
+       input {
+           color:blue;
+       }
+       div {
+           color:rgb(233, 139, 139);
+       }
+       textarea {
+           position:absolute;
+           margin-left:200px;
+       }
+    </style>
+</head>
+<body>
+    <!-- Use get not post -->
+     
+    <!-- span same thing expect is inline element because span refferer to specific line -->
+    <a href="index00.html"><h2>Go Back</h2></a>
+    <a href="#footer">Jump to bottom</a>
+    <div>
+        <form method="get" action="/index03.html"> <!--cand faci action trimiti formularul pe ce url vrei -->
+        <span> First Name : <input type="text" name="firstname"></span><br>
+        Last Name  :<input type="text" name="lastname"><br>
+        Email :<input type="email" name="email" required><br>
+        Password: <input type="password" name="password"  minlength="5" maxlength="30"><br>
+        Birthday: <input type="date" name="date"><br>
+        Imagination: <textarea name="text-area" id="textarea" cols="30" rows="10" placeholder="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum sit porro nihil, magni neque aliquam impedit blanditiis at totam labore corporis reprehenderit, debitis illum eligendi ullam vitae rerum, vero iste."></textarea><br>
+        Gender: <br>
+                    <input type="radio" name="gender" value="male">Male <br>
+                    <input type="radio" name="gender" value="female">Female <br>
+                    <input type="radio" name="gender" value="other"> Other<br>
+        Pets: <br>
+            <input type="checkbox" name="cat">Cat <br>
+            <input type="checkbox" name="dog">Dog <br>
+        Cars: <br>
+        <select name="cars">
+            <option value="volvo" id="volvo">Volvo</option>
+            <option value="Audi" id="audi">Audi</option>
+        </select> <br>
+
+        <input type="submit" value="Register!">
+        <input type="reset">
+        </form>
+    </div>
+    <br>
+
+   <!-- div divide the content -->
+    <footer id="footer">
+        <h2>This is footer</h2>
+    </footer>
+</body>
+</html>

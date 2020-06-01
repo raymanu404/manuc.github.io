@@ -1,0 +1,15 @@
+body{
+    background-image:url(caleb-maxwell-TW00C8cQOCk-unsplash.jpg);
+    background-size:cover;
+
+
+}
+.navbar-expand-lg{
+    background:inherit;
+}
+
+li{
+    list-style:none;
+}
+
+

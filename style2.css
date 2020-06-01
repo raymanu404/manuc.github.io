@@ -1,0 +1,95 @@
+body{
+    background-image:url(photo-1590137652181-41dbc5002129.jfif);
+    background-size:cover;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext{
+    border:5px dashed rgba(5, 97, 103,0.2);
+    text-align:center;
+    color:purple;
+    /* padding-top:6px; */
+    
+
+}
+    
+.active{
+    color:red;
+}
+#div1{
+    border:5px dashed rgba(	14, 73, 78,0.6);
+    background-color:rgba(48, 60, 116,0.2); 
+    margin-left:200px;
+    margin-right:200px;
+    scroll-behavior: initial;
+   
+    
+}
+
+#div2{
+    border:5px dashed rgba(40,23,11,0.4);
+    background-color:rgba(0,0,255,0.3);
+    margin-left:200px;
+    margin-right:200px;
+    scroll-behavior:initial;
+   
+    
+}
+ul{
+    text-align:right;
+}
+h2+p{
+    text-align:center;
+    color:green;
+    font-size:30px;
+    
+}
+
+#div1,p .webtext{
+    margin-left:200px;
+    margin-right:200px;
+}
+#div2,p .webtext{
+    margin-left:200px;
+    margin-right:200px;
+}
+
+#lorem{
+    margin-top:25px;
+    /* border:4px solid rgba(35, 100, 103,0.5); */
+    line-height:20px;
+    color:rgb(247, 21, 217);
+    font-weight: 20px;
+    text-align:center;
+    font-style: bold;
+    text-transform: capitalize;
+    text-decoration:solid;
+}
+footer{
+    text-align:center;
+    color:rgb(125, 125, 126);
+    clear:both;
+}
+ section div p{
+     text-decoration: solid;
+    
+    border:5px solid red;
+    display:inline-block;
+    color:rgb(115, 255, 0);
+    margin-left:40px;
+    padding:5px 20px 5px 20px; /*top right bottom left dupa ceas*/
+    width:33px; /*din interiorul blockului*/
+    height:50px; 
+    
+}
+section >p{
+    font-size:50px;
+    color:lightblue;
+    
+}
+span{
+    font-size:3em; /*1 em este cam de 20 de ori mai mare decat 1 px*/
+}
